@@ -3,37 +3,40 @@
 #the_count = [3,3,3,3,3,-1,3] #false
 #the_count = [-3,-3,3,0,3,-234,3] # true
 
-counter = 0
-last_found = 0
-for number in the_count
-    if number == 3 && last_found != 3 
-        last_found = number
-        counter = counter + 1
-    elsif number == 3 && last_found == 3
-        break 
-    else
-        last_found = number 
-    end
-end
-if counter == 3
-    puts "True"
-else
-    puts "False"
-end
+
+# counter = 0
+# last_found = 0
+# for number in the_count
+#     if number == 3 && last_found != 3 
+#         last_found = number
+#         counter = counter + 1
+#     elsif number == 3 && last_found == 3
+#         break 
+#     else
+#         last_found = number 
+#     end
+# end
+# if counter == 3
+#     puts "True"
+# else
+#     puts "False"
+# end
 
 # def same_first_last(list)
-
+#     list.size.times do |i|
+#         if list.size > 1.0 && list.first == list.last
+#             return true
+#         else
+#             return false
+#         end
+#     end
 # end
 
 # puts same_first_last([1, 2, 1, 3, 1]) #true
-# puts same_first_last([])#false
+# puts same_first_last([1, 2, 3])#false
 # puts same_first_last([1, 1])#true
 
 
-#get_sanwich -> a sanwich is two pieces of bread with something in
-#-between. Return the string thats is between the first and last 
-#-apperance of "bread" in a given string or return the the empty 
-#-string"". For example get_sanwich ("breadjambread") =>"jam"
 
 
 # def get_sanwich(str)
@@ -53,23 +56,24 @@ end
 
 
 
-#shift_left - 
 
 
-# def shift_left
+# def shift_left(list)
+#     list.rotate(1)
+# end
+ 
+# puts([6, 2, 5, 3]) #2, 5, 3, 6
 
+
+#can_balance-
+
+def can_balance
+list.size % 2 == 0
+    list.size ==n
 # end
 
-
-# #can_balance-
-
-# def can_balance
-# list.size % 2 == 0
-#     list.size ==n
-# # end
-
-# puts can_balance([1, 2, 3, 3, 4, 5, 6])
-# puts can_balance(1, 2, 3, 4, 5, 6, 7, 8 )
+puts can_balance([1, 2, 3, 3, 4, 5, 6])
+puts can_balance(1, 2, 3, 4, 5, 6, 7, 8 )
 # count_codd -
 
 # def count_code(str)
@@ -118,6 +122,3 @@ end
 # def _2_4(list)
 
 # end
-
-# puts 
-
