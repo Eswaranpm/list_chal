@@ -67,13 +67,14 @@
 
 #can_balance-
 
-def can_balance
-list.size % 2 == 0
-    list.size ==n
-# end
+# def can_balance
+#     if list.size % 2 == 0
+#     side_1 == 
+#     side_2 ==
+# # end
 
-puts can_balance([1, 2, 3, 3, 4, 5, 6])
-puts can_balance(1, 2, 3, 4, 5, 6, 7, 8 )
+# puts can_balance([1, 2, 3, 3, 4, 5, 6])
+# puts can_balance(1, 2, 3, 4, 5, 6, 7, 8 )
 # count_codd -
 
 # def count_code(str)
