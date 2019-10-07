@@ -1,24 +1,25 @@
+#the_count = [3,-3,3,0,8,-1,3] #true
+#the_count = [3,0,0,0,0,-1,-4] #false
+#the_count = [3,3,3,3,3,-1,3] #false
+#the_count = [-3,-3,3,0,3,-234,3] # true
 
-# def threed(list)
-
-#     i = 3
-#     count = 0
-#     (list.size - 1).times do |i|
-#         if list[i] == 3 
-#             return true
-#         end
-
-#         if list.each|i| == 3
-#         return false
-#         end
-
-# end
-
-
-# puts threed ([2, 2, 2]) #false
-# puts threed ([2, 3, 4, 3, 2, 3]) #true
-# puts threed ([3, 3, 3]) #false
-
+counter = 0
+last_found = 0
+for number in the_count
+    if number == 3 && last_found != 3 
+        last_found = number
+        counter = counter + 1
+    elsif number == 3 && last_found == 3
+        break 
+    else
+        last_found = number 
+    end
+end
+if counter == 3
+    puts "True"
+else
+    puts "False"
+end
 
 # def same_first_last(list)
 
@@ -114,9 +115,9 @@
 # print merge([1, 2, 5,], [4, 6, 7]) #1, 2, 3, 4, 5, 6, 7
 
 
-def _2_4(list)
+# def _2_4(list)
 
-end
+# end
 
-puts 
+# puts 
 
