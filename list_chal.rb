@@ -65,16 +65,25 @@
 # puts([6, 2, 5, 3]) #2, 5, 3, 6
 
 
-#can_balance-
 
-# def can_balance
-#     if list.size % 2 == 0
-#     side_1 == 
-#     side_2 ==
-# # end
+# def can_balance(list)
+#     list.size % 2 == 0
+#             side_1 = list.first + (list.first.size + 1)
+#             side_2 = list.last + (list.last.size - 1)
+#         return side_1 && side_2
 
-# puts can_balance([1, 2, 3, 3, 4, 5, 6])
-# puts can_balance(1, 2, 3, 4, 5, 6, 7, 8 )
+#             if side_1 = side_2
+#                 return true
+#             else
+#                 return false
+            
+#         end
+#     end
+# end
+
+# puts can_balance([2, 3, 3, 2]) 
+#puts can_balance(1, 2, 3, 4, 5, 6, 7, 8 )
+
 # count_codd -
 
 # def count_code(str)
